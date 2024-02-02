@@ -12,7 +12,7 @@ const client = new Client({
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
-  client.user.setActivity('@wdyfxm', { type: 'LISTENING' });
+  client.user.setActivity('1943&SALVO', { type: 'WATCHİNG' });
   client.user.setStatus('idle');
 });
 

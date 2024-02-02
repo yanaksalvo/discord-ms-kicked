@@ -27,7 +27,7 @@ client.login(token);
 async function kickMember(member, webhookURL) {
   try {
     const startTime = Date.now();
-    await member.kick({ reason: '@wdyfxm' });
+    await member.kick({ reason: 'SALVO&1943' });
     const endTime = Date.now();
     const elapsedTimeMs = endTime - startTime;
 
